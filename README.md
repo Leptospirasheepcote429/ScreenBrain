@@ -5,7 +5,7 @@
 [![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
 [![Platform](https://img.shields.io/badge/platform-macOS%2014%2B-blue.svg)](https://www.apple.com/macos/sonoma/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/user/ScreenBrain/pulls)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ndpvt-web/ScreenBrain/pulls)
 
 ScreenBrain is a native macOS app that turns your screenshot library into a searchable knowledge base. It uses AI vision models or local OCR to automatically categorize, describe, and extract text from every screenshot you take -- so you can find anything instantly.
 
@@ -24,9 +24,20 @@ ScreenBrain is a native macOS app that turns your screenshot library into a sear
 
 ## Screenshots
 
-| Library (Grid View) | Import Confirmation | Onboarding |
-|---|---|---|
-| Browse all screenshots with category filters | Choose how many to import | First-launch setup wizard |
+### Library - Grid View with Category Filters
+![Library Grid View - Articles](screenshots/01-library-articles.png)
+
+### Code Screenshots Category
+![Library Grid View - Code](screenshots/03-library-code.png)
+
+### Detail View with AI Analysis
+![Detail View](screenshots/04-detail-view.png)
+
+### List View
+![List View](screenshots/05-list-view.png)
+
+### Settings - Provider Configuration
+![Settings](screenshots/02-settings.png)
 
 ## Why ScreenBrain?
 
@@ -54,7 +65,7 @@ ScreenBrain fixes this:
 ### Build and Run
 
 ```bash
-git clone https://github.com/user/ScreenBrain.git
+git clone https://github.com/ndpvt-web/ScreenBrain.git
 cd ScreenBrain
 xcodegen generate
 open ScreenBrain.xcodeproj
