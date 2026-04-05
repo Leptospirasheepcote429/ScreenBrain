@@ -1,0 +1,41 @@
+name: ScreenBrain
+options:
+  bundleIdPrefix: com.screenbrain
+  deploymentTarget:
+    macOS: "14.0"
+  xcodeVersion: "15.0"
+  generateEmptyDirectories: true
+
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    CODE_SIGN_IDENTITY: "-"
+    CODE_SIGN_STYLE: Manual
+    OTHER_SWIFT_FLAGS: "-swift-version 5"
+
+targets:
+  ScreenBrain:
+    type: application
+    platform: macOS
+    sources:
+      - path: ScreenBrain
+        excludes:
+          - "**/.DS_Store"
+    settings:
+      base:
+        INFOPLIST_FILE: ScreenBrain/Resources/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.screenbrain.app
+        MARKETING_VERSION: "1.0.0"
+        CURRENT_PROJECT_VERSION: "1"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        SUPPORTED_PLATFORMS: "macosx"
+        SWIFT_EMIT_LOC_STRINGS: "YES"
+        MACOSX_DEPLOYMENT_TARGET: "14.0"
+    info:
+      path: ScreenBrain/Resources/Info.plist
+      properties:
+        NSPhotoLibraryUsageDescription: "ScreenBrain needs access to your photos to find and analyze screenshots."
+        NSPhotoLibraryAddUsageDescription: "ScreenBrain needs access to save analyzed screenshots."
+        CFBundleDisplayName: "ScreenBrain"
+    entitlements:
+      path: ScreenBrain/Resources/ScreenBrain.entitlements
